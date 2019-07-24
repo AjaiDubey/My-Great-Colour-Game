@@ -8,9 +8,9 @@ var h1apna = document.querySelector("h1");
 var resetbutton = document.querySelector("#reset");
 var modeofGame = document.querySelectorAll(".modes");
 
-init();
+initialize();
 
-function init(){
+function initialize(){
 	setupModebuttons();
 	setupSquares();
 	resetpg();
